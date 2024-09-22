@@ -2,26 +2,110 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.navbar {
+ background-color: black;
+ color: white;
+ display: flex;
+ 
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.navbar-items {
+  display: flex;
+  gap: 25px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: 50px;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.mainContainer-of-Home-Page {
+  background: linear-gradient(black, rgb(189, 189, 189));
+  height: 1064px;
+  display: flex;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.descriptionAboutMe {
+  color: white;
+  width: 3000px;
+  height: 1000px;
+  align-content: center;
+ padding-left: 30px;
+ padding-right: 30px;
+ font-size: 50px;
+ text-align: justify;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-style: italic;
 }
+
+.homePageImage {
+  width: 100%;
+  height: 100%;
+}
+
+.homePageImage img {
+ width: 100%;
+ height: 100%;
+}
+
+.uzair-zia {
+  color: green;
+  font-size: 70px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.mainContainer-of-professional-Page {
+  background: linear-gradient(black, rgb(189, 189, 189));
+  height: 1109px;
+  color: white;
+}
+
+.main-Container-Contact {
+  background: linear-gradient(black, rgb(189, 189, 189));
+  height: 1109px;
+  color: white;
+}
+
+.Professional-Summary-Heading {
+  color: white;
+  font-size: 100px;
+  padding: 70px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Professional-Summary-Description {
+  color: white;
+  font-size: 50px;
+ display: flex;
+ text-align: justify;
+ padding: 90px;
+ font-style: italic;
+}
+
+.experience-Description {
+  color: white;
+  font-size: 45px;
+ display: flex;
+ text-align: justify;
+ padding: 90px;
+ font-style: italic;
+}
+
+
+.contact-info-list {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  padding: 80px;
+  font-weight: bolder;
+  font-style: italic;
+
+}
+
+
+
+
