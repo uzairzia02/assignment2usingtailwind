@@ -3,7 +3,7 @@ import Header from "../components/header";
 export default function Contact () {
     return (
         <div className="main-Container-Contact">
-            <Header/>
+           
             <h1 className="Professional-Summary-Heading">CONTACT INFORMATION</h1>
 
             <ul className="contact-info-list">

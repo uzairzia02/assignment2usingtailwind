@@ -3,7 +3,7 @@ import Header from "../components/header";
 export default function EducationalSummary() {
   return (
     <div className="mainContainer-of-professional-Page">
-      <Header />
+      
       <div>
         <h1 className="Professional-Summary-Heading">EDUCATIONAL SUMMARY</h1>
         <p className="Professional-Summary-Description">

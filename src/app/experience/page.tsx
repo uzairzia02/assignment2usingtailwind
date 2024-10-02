@@ -3,7 +3,7 @@ import Header from "../components/header";
 export default function Experience() {
   return (
     <div className="mainContainer-of-professional-Page">
-      <Header />
+      
       <div>
         <h1 className="Professional-Summary-Heading">EXPERIENCE</h1>
         <p className="experience-Description">
